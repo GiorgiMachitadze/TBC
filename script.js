@@ -75,3 +75,7 @@ const faqLink = document.getElementById('faqLink');
 faqLink.addEventListener('click', () => {
   window.location.href = 'https://www.tbcacademy.ge/usaid-faq';
 });
+
+document.getElementById('burger-menu').addEventListener('click', function() {
+  document.querySelector('nav').classList.toggle('show');
+});
